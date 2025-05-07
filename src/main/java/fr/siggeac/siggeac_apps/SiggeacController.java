@@ -1,4 +1,4 @@
-package fr.siggeac.siggeac_apps.etudiants;
+package fr.siggeac.siggeac_apps;
 
 import org.jooq.DSLContext;
 import org.springframework.stereotype.Controller;
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
-@RequestMapping("/etudiant")
-public class EtudiantsController {
+@RequestMapping("/home")
+public class SiggeacController {
 
     private final DSLContext dsl;
-    public EtudiantsController(DSLContext dsl) {
+    public SiggeacController(DSLContext dsl) {
         this.dsl = dsl;
     }
 
@@ -23,6 +23,6 @@ public class EtudiantsController {
      */
     @GetMapping
     public String list() {
-        return "etudiants/index";
+        return "HomePage/index";
     }
 }

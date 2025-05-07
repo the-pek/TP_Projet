@@ -1,0 +1,4 @@
+fr\siggeac\siggeac_apps\SiggeacAppsApplication.class
+fr\siggeac\siggeac_apps\db\jooq\tables\records\DossierEtudiantRecord.class
+fr\siggeac\siggeac_apps\etudiants\EtudiantsController.class
+fr\siggeac\siggeac_apps\db\jooq\tables\records\EvaluationRecord.class

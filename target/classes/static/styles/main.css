@@ -1,0 +1,15 @@
+.acceuil{
+    text-align: center;
+    margin: 10px;
+    font-size: xx-large;
+}
+
+.redirection{
+    margin: 50px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: larger;
+    margin-left: 40px;
+    margin-right: 40px;
+}
