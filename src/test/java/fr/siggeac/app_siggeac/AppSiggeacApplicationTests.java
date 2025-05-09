@@ -1,10 +1,10 @@
-package fr.siggeac.siggeac_apps;
+package fr.siggeac.app_siggeac;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SiggeacAppsApplicationTests {
+class AppSiggeacApplicationTests {
 
 	@Test
 	void contextLoads() {

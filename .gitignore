@@ -55,3 +55,7 @@ replay_pid*
 
 ### VS Code ###
 .vscode/
+
+### app professeurs et offres_services
+offres_services/
+professeurs

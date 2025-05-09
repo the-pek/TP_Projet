@@ -1,4 +1,4 @@
-package fr.siggeac.siggeac_apps;
+package fr.siggeac.app_siggeac;
 
 import org.jooq.DSLContext;
 import org.springframework.stereotype.Controller;
